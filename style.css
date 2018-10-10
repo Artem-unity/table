@@ -1,0 +1,67 @@
+table {
+border-collapse:collapse; /*схлопнуть границы в одиночное пересечение*/
+font-family: Arial Narrow, sans-serif;
+margin: 0 auto;
+}
+
+
+tr {
+	background: linear-gradient(to right, white, green);
+}
+
+td {
+border-bottom: 1px solid black;
+padding: 10px;
+text-align:center;
+}
+
+tr:nth-child(even) { /*кажда€ втора€ строка.  ажда€ перва€ tr:nth-child(odd)*/
+	font-weight:bold;
+}
+
+td:nth-child(1){ /*кажда€ 1 €чейка*/
+	background: linear-gradient(to top, white, orange);
+}
+
+th {
+border-bottom: 1px solid black;
+padding: 25px;
+color: green;
+font-size: 25px;
+}
+
+.main-td {
+background: linear-gradient(to bottom, white, yellow);
+}
+
+a {
+text-decoration: none;
+}
+
+a:link { 
+	color: blue; /* ÷вет непосещенных ссылок */
+}
+
+a:visited {
+	color: brown; /* ÷вет посещенных ссылок */
+}
+
+a:hover {
+color:red; /* ÷вет ссылок при наведении на них курсора мыши */
+}
+
+a:active {
+color: yellow; /* ÷вет активных ссылок (при нажатии)*/
+}
+
+td:hover, th:hover{
+background:grey;
+}
+
+tr:hover{
+background:white;
+}
+
+tr:hover th{
+background:white;
+}
